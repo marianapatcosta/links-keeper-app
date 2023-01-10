@@ -1,0 +1,46 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+  white-space: pre-line;
+}
+
+.about > div {
+  position: relative;
+  padding: 2rem 1.5rem;
+}
+
+.about h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.about h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.about .navigation-link {
+  top: 2rem;
+  left: initial;
+  right: 2rem;
+}
+
+.about p a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 763px) {
+  .about > div {
+    margin: 4rem auto;
+    max-width: 40rem;
+  }
+
+  .about .navigation-link {
+    right: calc(50% - 19rem);
+  }
+}

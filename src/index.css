@@ -1,0 +1,83 @@
+:root {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #023e83;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.italic {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.navigation-link {
+  position: absolute;
+  color: #fff;
+  top: 2.5rem;
+  left: 1rem;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+}
+
+.navigation-link:hover {
+  transform: translateY(-0.2rem);
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
+}
+
+@media only screen and (min-width: 600px) {
+  .navigation-link {
+    top: 2.5rem;
+    left: calc(50% - 18.5rem);
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .navigation-link {
+    top: 4.5rem;
+    left: calc(50% - 19rem);
+  }
+}

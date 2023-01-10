@@ -1,0 +1,33 @@
+.error {
+  position: relative;
+
+}
+
+.error > div {
+  margin: 0 auto;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.error h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.error .navigation-link {
+  left: initial;
+  right: 2rem;
+}
+
+.error > div > a {
+  color: #fff;
+  margin: 2rem 0;
+  display: inline-block;
+}
+
+
+@media only screen and (min-width: 763px) {
+  .error .navigation-link {
+    right: calc(50% - 19rem);
+  }
+}
