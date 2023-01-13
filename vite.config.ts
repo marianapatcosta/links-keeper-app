@@ -27,12 +27,12 @@ export default defineConfig({
       manifest: {
         name: 'LinksKeeper',
         short_name: 'LinksKeeper',
-        theme_color: '#023e83',
+        theme_color: '#000',
         description:
           'Link Keeper is a Progressive Web App developed to group, manage and display all your network links, e-mail and phone numbers in the same place..',
         start_url: '/',
         display: 'standalone',
-        background_color: '#06080f',
+        background_color: '#000',
         icons: [
           {
             src: 'images/android-chrome-48x48.png',

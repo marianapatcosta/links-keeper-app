@@ -1048,10 +1048,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@marianapatcosta/links-keeper@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@marianapatcosta/links-keeper/-/links-keeper-1.0.3.tgz#013cc7c2ba13cb0de32018003c1c10f8510b637c"
-  integrity sha512-YgVkK52subFrbXk/mD+7ZPl8cMMjTpHQjYlcsbD1Vkq3/HADN8D837TeTTUav2nwBWXnKFpfpXLuiAaPJ1Dg5Q==
+"@marianapatcosta/links-keeper@1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@marianapatcosta/links-keeper/-/links-keeper-1.0.7.tgz#8f5c1b79b5fc370b923074a28aede97e183eb964"
+  integrity sha512-Znz/VNmZhDJLAEuaLbXMFNhkVA4w2F8wa+bKeg3E8eg8ryf0cOXIQik6BriQiPlme4CUjYjCmJpA3Okw/moTNw==
   dependencies:
     "-" "^0.0.1"
     "@fortawesome/fontawesome-svg-core" "^6.2.1"

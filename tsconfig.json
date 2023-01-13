@@ -22,7 +22,6 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
     "node_modules/vite-plugin-pwa/react.d.ts"
   ],
   "exclude": ["dist", "node_modules", "**/*.worker.ts"],
