@@ -26,3 +26,5 @@ dist-ssr
 .firebase/
 .firebaserc
 firebase.json
+
+public/.well-known

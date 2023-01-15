@@ -33,53 +33,11 @@ export default defineConfig({
         start_url: '/',
         display: 'standalone',
         background_color: '#000',
+        orientation: 'any',
         icons: [
-          {
-            src: 'images/android-chrome-48x48.png',
-            sizes: '48x48',
-            type: 'image/png',
-            purpose: 'any maskable',
-          },
-          {
-            src: 'images/android-chrome-72x72.png',
-            sizes: '72x72',
-            type: 'image/png',
-          },
-          {
-            src: 'images/android-chrome-96x96.png',
-            sizes: '96x96',
-            type: 'image/png',
-            purpose: 'any maskable',
-          },
-          {
-            src: 'images/android-chrome-144x144.png',
-            sizes: '144x144',
-            type: 'image/png',
-          },
-          {
-            src: 'images/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
-            purpose: 'any maskable',
-          },
           {
             src: 'images/android-chrome-512x512.png',
             sizes: '512x512',
-            type: 'image/png',
-          },
-          {
-            src: 'images/apple-touch-60x60.png',
-            sizes: '60x60',
-            type: 'image/png',
-          },
-          {
-            src: 'images/apple-touch-76x76.png',
-            sizes: '76x76',
-            type: 'image/png',
-          },
-          {
-            src: 'images/apple-touch-120x120.png',
-            sizes: '120x120',
             type: 'image/png',
           },
           {
